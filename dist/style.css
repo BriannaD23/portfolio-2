@@ -98,7 +98,7 @@ nav ul li a:hover::after{
   display:flex;
   justify-content:space-around;
   flex-wrap:wrap;
-  height:800px;
+  height:880px;
   width:100%;
   padding-top: 250px;
 }
@@ -163,7 +163,7 @@ nav ul li a:hover::after{
 
 .tab-contents ul li span{
   color: Yellow;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .tab-contents{
@@ -187,7 +187,7 @@ nav ul li a:hover::after{
 }
 
 .sub-title{
-  padding-left:40px;
+  padding-left:60px;
   font-size:30px;
 }
 
@@ -466,6 +466,14 @@ form input, form textarea{
   margin-left:130px;
 }
 
+.bars{
+  display: none;
+}
+
+.fa-circle-xmark{
+  color: #070707;
+}
+
 form span{
   display: flex;
   align-content: center;
@@ -481,189 +489,297 @@ form span{
 
 /*------------------------CSS for small screens---------------------------*/
 
-@media only screen and (max-width:600px){
-    #header{
-      background-image: url(https://i.postimg.cc/5yxSdjTK/My-project-2.png);
-      display:inline-block;
-      justify-content: space-between;
+@media only screen and (max-width:700px){
+  #header{
+    background-image: url(https://i.postimg.cc/0Q1643Lc/My-project-3.png);
+    display:inline-block;
+    justify-content: space-between;
       
-    }
+  }
 
+  .logo{
+    font-size: 16px;
+  }
+
+  .intro{
+    margin-top:65%;
+    font-size: 14px;
+  }
+
+  .intro p{
+    margin-right: 200px;
+  }
+
+  .intro h1{
+    font-size:20px;
+
+  }
+
+  .bars{
+    display: block;
+    font-size: 25px;
+  }
+  
+  .boton-menu{
+    display: block;
+    font-size: 25px;
+  }
     
+  nav ul{
+    background-color:yellow;
+    position: fixed;
+    top:0;
+    right: -200px;
+    width:200px;
+    height: 100vh;
+    padding-top:50px;
+    z-index:2;
+    transition:right 0.5s;
+  }
 
-    .logo{
-      font-size: 16px;
-    }
+  nav ul li{
+    display: block;
+    margin: 25px;
+  }
 
-    .intro{
-      margin-top:100%;
-      font-size: 14px;
-    }
-
-    .intro p{
-      margin-right: 200px;
-    }
-
-    .intro h1{
-      font-size:20px;
-
-    }
-
-    .boton-menu{
-      display: block;
-      font-size: 25px;
-    }
-    
-    nav ul{
-      background-color:yellow;
-      position: fixed;
-      top:0;
-      right: -200px;
-      width:200px;
-      height: 100vh;
-      padding-top:50px;
-      z-index:2;
-      transition:right 0.5s;
-    }
-
-    nav ul li{
-      display: block;
-      margin: 25px;
-    }
-
-    nav ul li a{
-      color: black;
+  nav ul li a{
+    color: black;
        
-    }
+  }
 
-    nav ul .boton-menu{
-      position: absolute;
-      top: 25px;
-      left: 25px;
-      cursor: pointer;
+  nav ul .boton-menu{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
 
-    }
+  }
 
-    .sub-title{
-      font-size: 20px;
-    }
+  .bars{
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .about2 .about-1{
-      display: flex;
-      flex-direction: column;
+/*---------- About section-------------------------*/
+  .sub-title{
+    font-size: 20px;
+  }
+  .about2 .about-1{
+    display: flex;
+    flex-direction: column;
+  }
 
-    }
+  #grad{
+    width: 300px;
+    height: 300px;
+    margin:auto;
+  }
 
-    #grad{
-      width: 300px;
-      height: 300px ;
-    }
+  .about2 h2{
+    padding: none;
 
-    .about2 h2{
-      padding: none;
+  }
 
-    }
+  .row{
+    flex-wrap:wrap;
+    height:1300px;
+    width:100%;
+  }
 
-    .row{
-      flex-wrap:wrap;
-      height:800px;
-      width:100%;
-      padding-top: 0;
-    }
+  .about2{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    padding-left:50px;
+    padding-right: 20px;
+  }
 
-    .about2{
-      display:flex;
-      flex-direction: column;
-      width:100%;
-      padding-left:50px;
-      padding-right: 20px;
-    }
-    .about2 h2{
-      font-size: 20px;
-    }
+  .about2 h2{
+    font-size: 20px;
+  }
 
-    .about2 p{
-      width:100%;
-      font-size: 14px;
+  .about2 p{
+    width:100%;
+    font-size: 14px;
 
-    }
-    .about-1{
-      width: 100%;
+  }
 
-    }
+  .about-1{
+    width: 100%;
 
-    #tab-tittles{
-      width: 100%;
-      display: flex;
-    }
-
-    
-    
-    .tab-links::after{
-      content:'';
-      width: 0;
-      height:3px; 
-      background: yellow;
-      position:absolute;
-      left:0;
-      bottom:-6px;
-      transition:0.5s;
-    }
-
-    .tab-links.active-link::after{
-      width: 20%;  
-    }
-
-    .subtitle{
-      font-size: 20px;
-    }
-
-    .services-list{
-      display:flex;
-      flex-direction: column;
-      padding-left: 40px;
-    }
-
-    #services{
-      height:1100px;
-      width: 100%;
-    }
-
-    #portfolio{
-      height:2000px;
-      width: 100%;
-    }
-    
-    .work-list{
-       display: flex;
-      flex-direction: column;
-    }
-
-    .title{
-      font-size: 20px;
-    }
-
-    #contact{
-      height: 800px;
-      width:100% ;
-    }
-
-    .contact-row{
-      display: flex;
-      flex-direction: column;
-      padding-top: 40px;
-      padding-right: 30px;
-      margin-left: 10px;
-     
-      
-    }
-
-    .contact-right{
-      margin-top: 45px;
-    }
+  }
 
   
 
+  #tab-tittles{
+    width: 100%;
+    display: flex;
+  }
+
+  .tab-contents ul li span{
+    color: Yellow;
+    font-size: 14px;
+  }
+
+  .tab-contents ul li span br{
+    font-size: 10px;
+  }
+  
+    
+    
+  .tab-links::after{
+    content:'';
+    width: 0;
+    height:3px; 
+    background: yellow;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+  }
+
+  .tab-links.active-link::after{
+    width: 20%;  
+  }
+/*--------------------services-----------------------*/
+  .subtitle{
+    font-size: 20px;
+  }
+
+  .services-list{
+    display:flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  #services{
+    height:1100px;
+    width: 100%;
+  }
+
+  #portfolio{
+    height:2000px;
+    width: 100%;
+  }
+    
+  .work-list{
+    display: flex;
+  flex-direction: column;
+  }
+
+  .title{
+    font-size: 20px;
+  }   
+
+/*--------------------contact------------------------------*/
+  #contact{
+    height: 800px;
+    width:100% ;
+  }
+  .contact-row{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-left: 10px;
+     
+      
+  }
+
+  .contact-right{
+  margin-top: 45px;
+  }
+
+  
     
 
+}
+
+
+
+@media only screen and (max-width:800px){
+
+/*---------------------nav-------------------------*/
+
+  .boton-menu{
+    display: block;
+    font-size: 25px;
   }
+
+  .bars{
+    display: block;
+    font-size: 25px;
+  }
+    
+  nav ul{
+    background-color:yellow;
+    position: fixed;
+    top:0;
+    right: -200px;
+    width:200px;
+    height: 100vh;
+    padding-top:50px;
+    z-index:2;
+    transition:right 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px;
+  }
+
+  nav ul li a{
+    color: black;
+       
+  }
+
+  nav ul .boton-menu{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+
+  }
+/*--------------------------intro---------------------*/
+  .intro{
+    margin-top:70%;
+  }
+
+
+  .sub-title{
+    font-size: 20px;
+  }
+
+
+  #grad{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+  }
+
+  
+
+  .about2 h2{
+    padding: none;
+
+  }
+
+  .row{
+    flex-wrap:wrap;
+    height:1400px;
+    width:100%;
+  }
+
+  .about2{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    padding-left:50px;
+    padding-right: 20px;
+  }
+
+
+
+
+}
+
