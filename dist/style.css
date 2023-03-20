@@ -503,15 +503,16 @@ form span{
 
   .intro{
     margin-top:100%;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .intro p{
     margin-right: 200px;
+
   }
 
   .intro h1{
-    font-size:20px;
+    font-size:25px;
 
   }
 
@@ -572,6 +573,8 @@ form span{
   #grad{
     width: 300px;
     height: 300px;
+    position: center;
+    margin-right: 50%;
   }
 
   .about2 h2{
@@ -583,6 +586,7 @@ form span{
     flex-wrap:wrap;
     height:1300px;
     width:100%;
+    padding-top:100px;
   }
 
   .about2{
@@ -669,6 +673,13 @@ form span{
   .title{
     font-size: 20px;
   }   
+
+  .services-list div:hover {
+    background:rgb(105, 105, 97);
+    transform:translateY(-10px);
+  
+  }
+  
 
 /*--------------------contact------------------------------*/
   #contact{
