@@ -502,7 +502,7 @@ form span{
   }
 
   .intro{
-    margin-top:65%;
+    margin-top:100%;
     font-size: 14px;
   }
 
@@ -572,7 +572,6 @@ form span{
   #grad{
     width: 300px;
     height: 300px;
-    margin:auto;
   }
 
   .about2 h2{
@@ -697,7 +696,7 @@ form span{
 
 
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:800px)and (min-width: 710px){
 
 /*---------------------nav-------------------------*/
 
