@@ -665,6 +665,11 @@ form span{
     font-size: 20px;
   }
 
+  .services-list div{
+    transition: background 0.1s, transform 0.1s;
+}
+
+
   .services-list{
     display:flex;
     flex-direction: column;
@@ -690,11 +695,7 @@ form span{
     font-size: 20px;
   }   
 
-  .services-list div:hover {
-    background:rgb(105, 105, 97);
-    transform:translateY(-10px);
   
-  }
   
 
 /*--------------------contact------------------------------*/
