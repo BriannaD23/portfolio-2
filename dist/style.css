@@ -80,14 +80,21 @@ nav ul li a:hover::after{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+}
 
+.second-box{
+  margin-left: 60px;
+  padding-right: 60px;
+}
+.second-box h1{
+  padding-bottom: 10px;
+  font-size: 40px;
 }
 
 /*-----------------------------about---------------------------------*/
 
 #about{
-  padding:150px 0;
+  padding:10px 0;
   color: white;
 }
 
@@ -106,6 +113,7 @@ nav ul li a:hover::after{
 
 #grad{
   border-radius: 15px;
+  margin-left:60px;
 
 }
 
@@ -512,15 +520,18 @@ form span{
   .second-box{
     order:2;
     padding: 2em;
+    margin-left: 0;
   }
 
   .second-box p{
-    margin-right: 100px;
+    padding-right: 80px;
+    
 
   }
 
   .intro h1{
-    font-size:25px;
+    font-size:30px;
+    padding-bottom: 10px;
 
   }
 
@@ -773,11 +784,6 @@ form span{
 
   }
 /*--------------------------intro---------------------*/
-  .intro{
-    margin-top:70%;
-  }
-
-
   .sub-title{
     font-size: 20px;
   }
