@@ -666,7 +666,8 @@ form span{
   }
 
   .services-list div{
-    transition: background 0.1s, transform 0.1s;
+    touch-action: pan-y;
+    transition: background 0.5s, transform 0.5s;
 }
 
 
