@@ -511,11 +511,11 @@ form span{
   }
   .second-box{
     order:2;
-    padding: 1em;
+    padding: 2em;
   }
 
-  .intro p{
-    margin-right: 200px;
+  .second-box p{
+    margin-right: 100px;
 
   }
 
@@ -713,7 +713,11 @@ form span{
   }
 
   .contact-right{
-  margin-top: 45px;
+  margin-top: 60px;
+  }
+
+  .btn2{
+    margin: auto;
   }
 
   
