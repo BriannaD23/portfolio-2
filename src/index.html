@@ -1,129 +1,137 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <meta name="description" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://kit.fontawesome.com/fc84bd7ef1.css" crossorigin="anonymous">
-      <script src="https://kit.fontawesome.com/fc84bd7ef1.js" crossorigin="anonymous"></script>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/fc84bd7ef1.css" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/fc84bd7ef1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title> My Portfolio </title>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="https://i.postimg.cc/qBL9qx0R/Screen-Shot-2023-02-18-at-10-36-50-AM-1.png" class="logo">
+        <ul>
+          <li><a href="#">Home </a></li>
+          <li><a href="#">About </a></li>
+          <li><a href="#"> Services</a></li>
+          <li><a href="#"> Portfolio </a></li>
+          <li><a href="#"> Contact </a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="intro">
+      <h1> Front-End Developer</h1>
+      <p> Hello, my name is Brianna Duncan and I am your next Front-End Developer</p>
+
+    </div>
 
 
-      <title> My Portfolio </title>
-  </head>
+    <!--------------about----------->
+    <div id="about">
+      <div class="row">
+        <div class="about2">
+          <h2> About Me </h2>
+          <p> My Name is Brianna Duncan and I'm from Cambridge Massachusetts. I currently reside in Las Vegas, Nevada. I
+            graduated from the University of Oregon Go Ducks! I ran track and field there and after my career I decided
+            to walk away from track. I made the career change from a pro track athlete to software engineer. I am self
+            taught and the skills I have learned from my sport gave me the motivation I needed I am a Front-End Engineer
+            who has been studying Web Development for 2 years. </p>
 
-  <body>
-       <div id="header"> 
-         <div class="container">
-            <nav>
-                <img src= "https://i.postimg.cc/qBL9qx0R/Screen-Shot-2023-02-18-at-10-36-50-AM-1.png" class="logo">
-                <ul>
-                  <li><a href= "#">Home </a></li>
-                  <li><a href= "#">About </a></li>
-                  <li><a href= "#"> Services</a></li>
-                  <li><a href= "#"> Portfolio </a></li>
-                  <li><a href= "#"> Contact </a></li>
-                </ul>
-            </nav>
-    
+          <div id="tab-tittles">
+            <p class="tab-links active-link" onclick="opentab('Skills')"> Skills </p>
+            <p class="tab-links" onclick="opentab('Experience')"> Experinece </p>
+            <p class="tab-links" onclick="opentab('Education')"> Education </p>
+          </div>
+
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Skilled</span><br> Designing Websites</li>
+              <li><span>Skilled</span><br> Designing Websites</li>
+              <li><span>Skilled</span><br> Designing Websites</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>Experience</span><br> Designing Websites</li>
+              <li><span>Experience</span><br> Designing Websites</li>
+              <li><span>Experience</span><br> Designing Websites</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>Education</span><br> Designing Websites</li>
+              <li><span>Education</span><br> Designing Websites</li>
+              <li><span>Education</span><br> Designing Websites</li>
+            </ul>
+          </div>
+
+
+
+        </div>
+        <div class="about-1">
+          <img id="grad" src="https://i.postimg.cc/tgLWDyfk/Grad.jpg">
+        </div>
       </div>
-      
-      <div class="intro">
-             <h1> Front-End Developer</h1>
-             <p> Hello, my name is Brianna Duncan and I am your next Front-End Developer</p>                
-    
-      </div>
-      
-     
- <!--------------about----------->     
-      <div id= "about">
-           <div class= "row">
-              <div class="about2">
-                  <h2> About Me </h2>
-                  <p>  My Name is Brianna Duncan and I'm from Cambridge Massachusetts. I currently reside in Las Vegas, Nevada. I graduated from the University of Oregon Go Ducks! I ran track and field there and after my career I decided to walk away from track. I made the career change from a pro track athlete to software engineer. I am self taught and the skills I have learned from my sport gave me the motivation I needed  I am a Front-End Engineer who has been studying Web Development for 2 years.  </p>
-                
-                  <div id="tab-tittles">
-                    <p class= "tab-links active-link" onclick="opentab('Skills')"> Skills </p>
-                    <p class= "tab-links" onclick="opentab('Experience')"> Experinece </p>
-                    <p class= "tab-links" onclick="opentab('Education')"> Education </p>        
-                  </div>
-                
-                  <div class="tab-contents active-tab" id="Skills">
-                    <ul>
-                      <li><span>Skilled</span><br> Designing Websites</li>
-                      <li><span>Skilled</span><br> Designing Websites</li>
-                      <li><span>Skilled</span><br> Designing Websites</li> 
-                    </ul>
-                  </div>
-                
-                  <div class="tab-contents" id="Experience">
-                    <ul>
-                      <li><span>Experience</span><br> Designing Websites</li>
-                      <li><span>Experience</span><br> Designing Websites</li>
-                      <li><span>Experience</span><br> Designing Websites</li> 
-                    </ul>
-                  </div>
-                  <div class="tab-contents" id="Education">
-                    <ul>
-                      <li><span>Education</span><br> Designing Websites</li>
-                      <li><span>Education</span><br> Designing Websites</li>
-                      <li><span>Education</span><br> Designing Websites</li> 
-                    </ul>
-                  </div>
-                
-                
-                
-              </div>
-              <div class="about-1">
-                    <img id="grad" src= "https://i.postimg.cc/tgLWDyfk/Grad.jpg">
-              </div>
-           </div>
-                      
-       </div>
-       
-         
-<!----------------services-------------------->
-      
+
+    </div>
+
+
+    <!----------------services-------------------->
+
     <section id="services">
-       <h2 class= "sub-title">My Services </h2>
-          <div class="services-list">
-           
-            <div>
- 
-            
- 
- 
-            <i class="fa-solid fa-laptop-code"></i>
-              
-            <h3> Web Design </h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam deserunt. Quam quos dicta voluptates mollitia deserunt enim voluptatum inventore ipsam error recusandae sint ratione cumque iusto, accusantium iure eligendi. </p>
-            <a href="#"> Learn More</a>
-            </div>
-          
-            <div>
-              
-            <i class="fa-brands fa-app-store"></i>
-              
-              
-            <h3> App Design </h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam deserunt. Quam quos dicta voluptates mollitia deserunt enim voluptatum inventore ipsam error recusandae sint ratione cumque iusto, accusantium iure eligendi. </p>
-            <a href="#"> Learn More</a>
-            </div>
-          
-            <div>
-            <i class="fa-solid fa-laptop-code"></i> 
-            <h3> Web Design </h3>
-              
-              
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam deserunt. Quam quos dicta voluptates mollitia deserunt enim voluptatum inventore ipsam error recusandae sint ratione cumque iusto, accusantium iure eligendi. </p>
-            <a href="#"> Learn More</a>
-            </div>
-         </div>
-      
+      <h2 class="sub-title">My Services </h2>
+      <div class="services-list">
+
+        <div>
+
+
+
+
+          <i class="fa-solid fa-laptop-code"></i>
+
+          <h3> Web Design </h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam deserunt. Quam quos dicta voluptates
+            mollitia deserunt enim voluptatum inventore ipsam error recusandae sint ratione cumque iusto, accusantium
+            iure eligendi. </p>
+          <a href="#"> Learn More</a>
+        </div>
+
+        <div>
+
+          <i class="fa-brands fa-app-store"></i>
+
+
+          <h3> App Design </h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam deserunt. Quam quos dicta voluptates
+            mollitia deserunt enim voluptatum inventore ipsam error recusandae sint ratione cumque iusto, accusantium
+            iure eligendi. </p>
+          <a href="#"> Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3> Web Design </h3>
+
+
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam deserunt. Quam quos dicta voluptates
+            mollitia deserunt enim voluptatum inventore ipsam error recusandae sint ratione cumque iusto, accusantium
+            iure eligendi. </p>
+          <a href="#"> Learn More</a>
+        </div>
       </div>
 
+  </div>
 
 
-  </body>
 
-
-  
+</body>
