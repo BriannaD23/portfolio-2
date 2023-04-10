@@ -722,16 +722,15 @@ form span{
     padding-top: 40px;
     padding-right: 30px;
     margin-left: 10px;
-     
-      
+         
   }
 
   .contact-right{
   margin-top: 60px;
   }
 
-  .btn2{
-    text-align: center;
+  .down{
+    align-items: center;
   }
 
   
