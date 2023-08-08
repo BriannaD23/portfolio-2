@@ -494,7 +494,7 @@ form span{
 
 /*------------------------CSS for small screens---------------------------*/
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:700px) {
 
   .logo{
     font-size: 16px;
@@ -706,7 +706,10 @@ form span{
 
   .title{
     font-size: 20px;
-  }   
+  }
+  
+/*---------------------Work----------------------------------------*/
+
 
   
   
@@ -740,7 +743,7 @@ form span{
 
 
 
-@media only screen and (max-width:900px)and (min-width: 710px){
+@media only screen and (max-width:900px)and (min-width: 701px){
 
 /*---------------------nav-------------------------*/
 
@@ -853,6 +856,8 @@ form span{
    
     
 }
+
+
 
 
 
