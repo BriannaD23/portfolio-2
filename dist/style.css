@@ -716,7 +716,7 @@ form span{
 
 /*--------------------contact------------------------------*/
   #contact{
-    height: 800px;
+    height: 880px;
     width:100% ;
   }
   .contact-row{
@@ -861,6 +861,7 @@ form span{
   .contact-right{
     margin-top:30px ;
     margin-left: 60px;
+
   }
    
   #contact-form{
