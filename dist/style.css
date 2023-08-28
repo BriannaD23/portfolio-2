@@ -695,13 +695,13 @@ form span{
   }
 
   #portfolio{
-    height:2000px;
+    height:1900px;
     width: 100%;
   }
     
   .work-list{
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
   }
 
   .title{
@@ -750,7 +750,7 @@ form span{
 
 
 
-@media only screen and (max-width:900px)and (min-width: 701px){
+@media only screen and (max-width:1000px)and (min-width: 701px){
 
 /*---------------------nav-------------------------*/
 
