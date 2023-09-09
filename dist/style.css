@@ -454,8 +454,13 @@ form input, form textarea{
 
 .button-submit:hover{
   background: black;
-  color: yellow;
+  color: yellow !important;;
 
+}
+
+
+.button-submit:active{
+  background:yellow; 
 }
 
 
