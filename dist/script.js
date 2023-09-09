@@ -31,6 +31,19 @@ function submitForm(){
 }
 
 
+const button = document.getElementsByClassName('btn');
+
+// Function to execute after the timeout
+function delayedFunction() {
+ 
+    // Event listener for button click
+    button.addEventListener('click', () => {
+        // Set a 2-second (2000 milliseconds) delay before executing the function
+        setTimeout(delayedFunction, 2000);
+});
+
+}
+
 
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwU1H2eaz13jgR0o9sWuGkn8Gz6x5QQ-tLiwlwVqbyMBIkAeZy6kGUMtFGuSM4-h9rt/exec'
